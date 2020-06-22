@@ -129,7 +129,7 @@ public class gameManager implements KeyListener {
             }
         } else {
             g.setFont(new Font("arial", Font.PLAIN, 33));
-            g.drawString("Press enter to start", 100, (gameSetUp.gameHeight / 2) + 50);
+            g.drawString("PRESS ENTER", 120, 250);
         }
     }
 

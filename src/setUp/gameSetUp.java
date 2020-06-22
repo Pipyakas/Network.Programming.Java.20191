@@ -57,10 +57,10 @@ public class gameSetUp extends Canvas implements Runnable {
             thread = new Thread(this);
             thread.start();
         }
-        if (JOptionPane.showConfirmDialog(this, "Run a server?") ==0)        {
-            socketServer = new GameServer(this);
-            socketServer.start();
-        }
+//        if (JOptionPane.showConfirmDialog(this, "Run a server?") ==0)        {
+//            socketServer = new GameServer(this);
+//            socketServer.start();
+//        }
         socketClient = new GameClient(this, "localhost");
         socketClient.start();
 
